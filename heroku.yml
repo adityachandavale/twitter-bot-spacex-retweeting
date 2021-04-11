@@ -3,5 +3,5 @@ build:
   web: Dockerfile	
 run:
  web: docker run -it -e CONSUMER_KEY='hNJlx21hY5TVvnWosoCsxZ9d1' -e CONSUMER_SECRET='SvoC6cRbemotiht0N6DNFWd0D4D8mNYgUMowHiSf2t8jjEUoE0' -e ACCESS_TOKEN='2889340878-7AQ7okdh6yKpAE7Q100u7qFTNO4EGOw1mCVlA5o' -e ACCESS_TOKEN_SECRET='tSOMMGjasdmqGu3SfOVVpcaKJ6qIiVwcMrEq9LkzwcvLU' fav-retweet-bot
-  worker:
-   image: web
+ worker:
+  image: web
